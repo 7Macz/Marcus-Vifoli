@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color: #EFF1F2;
+}
+
+h2{
+  padding-top: 32px;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 200;
+}
+
+/*Start First Section*/
+
+#firstBanner{
+  padding: 120px 0;
+  background-image: url('../images/BG1.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section .container{
+  max-width: 1280px;
+  margin: auto;
+}
+.gridArea{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+section h1{
+  padding-top: 45px;
+  padding-right: 20px;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section h2{
+  padding-right: 80px;
+}
+
+section p{
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 20px;
+}
+
+section span{
+  color: #DC8942;
+}
+
+button{
+  color: #001124;
+  font-size: 22px;
+  padding: 25px 120px;
+  margin-top: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid #FFD7AF;
+  border-radius: 5px;
+  background-image: radial-gradient(#D19E6A,#B7814E );
+  cursor: pointer;
+}
+
+/*Start Second Section*/
+.Banner{
+  background-color: #001124;
+}
+
+section .container.description{
+  padding: 75px 32.5px 36px 32.5px;
+  background-image: linear-gradient(36deg, rgba(0,54,89,1) 0%, rgba(4,96,155,1) 100%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+section .descriptionArea{
+  display: flex;
+  width: 190px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height:26px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+section .descriptionArea img{
+  padding-bottom: 38px;
+}
+
+/*Start Third Section*/
+section .mainArea h1{
+  font-size: 32px;
+  text-align: center;
+  line-height: 41.6px;
+  padding: 80px 270px 0 270px;
+} 
+
+section .mainArea h2{
+  text-align: center;
+  padding: 30px 250px 0 270px;
+} 
+
+section .areaColor{
+  width: 500px;
+  height: 315px;
+  margin: 107px 0 0 100px;
+  padding: 0 45px 58px 20px;
+  background-color: #041D39;
+  border-radius: 10px 0 10px 0;
+}
+
+section .areaColor h3{
+  padding-top: 18px;
+  padding-right: 50px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+section .areaColor h4{
+  padding-top: 18px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+section .areaColor img{
+  margin-top: -40px;
+  margin-left: -45px;
+}
+
+section .secondArea{
+  padding-top: 110px;
+  z-index: 2;
+}
+
+.areaColor:nth-child(1)::after{
+  background-color: #3081DB;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 140px;
+  left:480px;
+  top: -100px;
+  margin-right: -50%;
+  z-index: 1;
+}
+.areaColor:nth-child(2)::after{
+  background-color: #3081DB;
+  content: "";
+  display: inline-block;
+  height: 107px;
+  position: relative;
+  vertical-align: middle;
+  width: 1px;
+  bottom:-26px;
+  left: 200px;
+  margin-right: -50%;
+  z-index: 1;
+}
+
+.areaColor:nth-child(3)::after{
+  background-color: #3081DB;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 140px;
+  left:480px;
+  top: -100px;
+  margin-right: -50%;
+  z-index: 1;
+}
+
+.areaColor:nth-child(4) h3{
+  padding-right: 150px;
+}
+.thirt{
+  padding-bottom: 70px;
+}
+
+/*Start Marcus Vifoli*/
+#bannerMarcus{
+  padding: 220px 0 50px 0;
+  background-image: url('../images/BG3v1.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bannerMarcus button{
+  color: #EFF1F2;
+  font-size: 22px;
+  padding: 25px 70px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background-image: radial-gradient(#3BABF3,#145E8C );
+  cursor: pointer;    
+}
+
+#bannerMarcus .areaInfo1 p{
+  font-size: 28px;
+  padding: 0 120px 30px 0;
+}
+
+#bannerMarcus .areaInfo1 span{
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #003659;
+}
+
+/*Start Accordion*/
+#bannerAccordion{
+  padding: 80px 0 50px 0;
+  background-image: url('../images/BG2.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.accordion{
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.accordion-item{
+  background-color: #051A33;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+
+.accordion-item-header{
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.5rem;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordion-item-header::after{
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.accordion-item-header.active::after{
+  /*content: "\2212";*/
+  transform: rotate(45deg);
+}
+
+.accordion-item-body{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.accordion-item-body-content{
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #DC8942, transparent) 1;
+}
+
+/*.accordion-item-header.active + .accordion-item-body{
+  max-height: 1000px;
+}*/
+
+@media (max-width:767px) {
+  html{
+    font-size: 14px;
+  }
+}
